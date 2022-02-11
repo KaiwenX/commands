@@ -1,0 +1,507 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local CmdsGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Items = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local fly = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local fly_2 = Instance.new("TextButton")
+local fly_3 = Instance.new("TextButton")
+local fly_4 = Instance.new("TextButton")
+local fly_5 = Instance.new("TextButton")
+local fly_6 = Instance.new("TextButton")
+local fly_7 = Instance.new("TextButton")
+local fly_8 = Instance.new("TextButton")
+local fly_9 = Instance.new("TextButton")
+local fly_10 = Instance.new("TextButton")
+local fly_11 = Instance.new("TextButton")
+local fly_12 = Instance.new("TextButton")
+local fly_13 = Instance.new("TextButton")
+local fly_14 = Instance.new("TextButton")
+local fly_15 = Instance.new("TextButton")
+local fly_16 = Instance.new("TextButton")
+local fly_17 = Instance.new("TextButton")
+local fly_18 = Instance.new("TextButton")
+local fly_19 = Instance.new("TextButton")
+local fly_20 = Instance.new("TextButton")
+local fly_21 = Instance.new("TextButton")
+local fly_22 = Instance.new("TextButton")
+local fly_23 = Instance.new("TextButton")
+local fly_24 = Instance.new("TextButton")
+local fly_25 = Instance.new("TextButton")
+local fly_26 = Instance.new("TextButton")
+local fly_27 = Instance.new("TextButton")
+local fly_28 = Instance.new("TextButton")
+local fly_29 = Instance.new("TextButton")
+local fly_30 = Instance.new("TextButton")
+local fly_31 = Instance.new("TextButton")
+local fly_32 = Instance.new("TextButton")
+local fly_33 = Instance.new("TextButton")
+local SearchBar = Instance.new("TextBox")
+local Close_Button = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+CmdsGui.Name = "CmdsGui"
+CmdsGui.Parent = game.CoreGui
+CmdsGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = CmdsGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 99.000
+Frame.Position = UDim2.new(0.419825077, 0, 0, 0)
+Frame.Size = UDim2.new(0, 259, 0, 879)
+
+Items.Name = "Items"
+Items.Parent = Frame
+Items.Active = true
+Items.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Items.BorderColor3 = Color3.fromRGB(28, 28, 28)
+Items.Position = UDim2.new(0.0452289321, 0, 0.400455028, 0)
+Items.Size = UDim2.new(0, 249, 0, 200)
+Items.CanvasPosition = Vector2.new(0, 1050)
+
+UIListLayout.Parent = Items
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+fly.Name = "fly"
+fly.Parent = Items
+fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly.BackgroundTransparency = 999.000
+fly.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly.Size = UDim2.new(0, 250, 0, 33)
+fly.Font = Enum.Font.GothamBold
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly.TextSize = 27.000
+
+UICorner.Parent = Items
+
+fly_2.Name = "fly"
+fly_2.Parent = Items
+fly_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_2.BackgroundTransparency = 999.000
+fly_2.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_2.Size = UDim2.new(0, 250, 0, 33)
+fly_2.Font = Enum.Font.GothamBold
+fly_2.Text = "Fly2"
+fly_2.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_2.TextSize = 27.000
+
+fly_3.Name = "fly"
+fly_3.Parent = Items
+fly_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_3.BackgroundTransparency = 999.000
+fly_3.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_3.Size = UDim2.new(0, 250, 0, 33)
+fly_3.Font = Enum.Font.GothamBold
+fly_3.Text = "Bank"
+fly_3.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_3.TextSize = 27.000
+
+fly_4.Name = "fly"
+fly_4.Parent = Items
+fly_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_4.BackgroundTransparency = 999.000
+fly_4.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_4.Size = UDim2.new(0, 250, 0, 33)
+fly_4.Font = Enum.Font.GothamBold
+fly_4.Text = "Adminbase"
+fly_4.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_4.TextSize = 27.000
+
+fly_5.Name = "fly"
+fly_5.Parent = Items
+fly_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_5.BackgroundTransparency = 999.000
+fly_5.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_5.Size = UDim2.new(0, 250, 0, 33)
+fly_5.Font = Enum.Font.GothamBold
+fly_5.Text = "God"
+fly_5.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_5.TextSize = 27.000
+
+fly_6.Name = "fly"
+fly_6.Parent = Items
+fly_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_6.BackgroundTransparency = 999.000
+fly_6.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_6.Size = UDim2.new(0, 250, 0, 33)
+fly_6.Font = Enum.Font.GothamBold
+fly_6.Text = "Antikill"
+fly_6.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_6.TextSize = 27.000
+
+fly_7.Name = "fly"
+fly_7.Parent = Items
+fly_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_7.BackgroundTransparency = 999.000
+fly_7.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_7.Size = UDim2.new(0, 250, 0, 33)
+fly_7.Font = Enum.Font.GothamBold
+fly_7.Text = "Slient"
+fly_7.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_7.TextSize = 27.000
+
+fly_8.Name = "fly"
+fly_8.Parent = Items
+fly_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_8.BackgroundTransparency = 999.000
+fly_8.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_8.Size = UDim2.new(0, 250, 0, 33)
+fly_8.Font = Enum.Font.GothamBold
+fly_8.Text = "Aimbot - Bot"
+fly_8.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_8.TextSize = 27.000
+
+fly_9.Name = "fly"
+fly_9.Parent = Items
+fly_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_9.BackgroundTransparency = 999.000
+fly_9.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_9.Size = UDim2.new(0, 250, 0, 33)
+fly_9.Font = Enum.Font.GothamBold
+fly_9.Text = "Profov"
+fly_9.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_9.TextSize = 27.000
+
+fly_10.Name = "fly"
+fly_10.Parent = Items
+fly_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_10.BackgroundTransparency = 999.000
+fly_10.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_10.Size = UDim2.new(0, 250, 0, 33)
+fly_10.Font = Enum.Font.GothamBold
+fly_10.Text = "Fovreset"
+fly_10.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_10.TextSize = 27.000
+
+fly_11.Name = "fly"
+fly_11.Parent = Items
+fly_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_11.BackgroundTransparency = 999.000
+fly_11.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_11.Size = UDim2.new(0, 250, 0, 33)
+fly_11.Font = Enum.Font.GothamBold
+fly_11.Text = "Re - Res"
+fly_11.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_11.TextSize = 27.000
+
+fly_12.Name = "fly"
+fly_12.Parent = Items
+fly_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_12.BackgroundTransparency = 999.000
+fly_12.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_12.Size = UDim2.new(0, 250, 0, 33)
+fly_12.Font = Enum.Font.GothamBold
+fly_12.Text = "Stamina"
+fly_12.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_12.TextSize = 27.000
+
+fly_13.Name = "fly"
+fly_13.Parent = Items
+fly_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_13.BackgroundTransparency = 999.000
+fly_13.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_13.Size = UDim2.new(0, 250, 0, 33)
+fly_13.Font = Enum.Font.GothamBold
+fly_13.Text = "Chatspy - Cspy"
+fly_13.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_13.TextSize = 27.000
+
+fly_14.Name = "fly"
+fly_14.Parent = Items
+fly_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_14.BackgroundTransparency = 999.000
+fly_14.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_14.Size = UDim2.new(0, 250, 0, 33)
+fly_14.Font = Enum.Font.GothamBold
+fly_14.Text = "Tptool"
+fly_14.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_14.TextSize = 27.000
+
+fly_15.Name = "fly"
+fly_15.Parent = Items
+fly_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_15.BackgroundTransparency = 999.000
+fly_15.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_15.Size = UDim2.new(0, 250, 0, 33)
+fly_15.Font = Enum.Font.GothamBold
+fly_15.Text = "Infzoom"
+fly_15.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_15.TextSize = 27.000
+
+fly_16.Name = "fly"
+fly_16.Parent = Items
+fly_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_16.BackgroundTransparency = 999.000
+fly_16.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_16.Size = UDim2.new(0, 250, 0, 33)
+fly_16.Font = Enum.Font.GothamBold
+fly_16.Text = "Nofog - Fog"
+fly_16.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_16.TextSize = 27.000
+
+fly_17.Name = "fly"
+fly_17.Parent = Items
+fly_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_17.BackgroundTransparency = 999.000
+fly_17.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_17.Size = UDim2.new(0, 250, 0, 33)
+fly_17.Font = Enum.Font.GothamBold
+fly_17.Text = "Wallwalk"
+fly_17.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_17.TextSize = 27.000
+
+fly_18.Name = "fly"
+fly_18.Parent = Items
+fly_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_18.BackgroundTransparency = 999.000
+fly_18.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_18.Size = UDim2.new(0, 250, 0, 33)
+fly_18.Font = Enum.Font.GothamBold
+fly_18.Text = "Autostomp"
+fly_18.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_18.TextSize = 27.000
+
+fly_19.Name = "fly"
+fly_19.Parent = Items
+fly_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_19.BackgroundTransparency = 999.000
+fly_19.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_19.Size = UDim2.new(0, 250, 0, 33)
+fly_19.Font = Enum.Font.GothamBold
+fly_19.Text = "Speed -- (Q)"
+fly_19.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_19.TextSize = 27.000
+
+fly_20.Name = "fly"
+fly_20.Parent = Items
+fly_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_20.BackgroundTransparency = 999.000
+fly_20.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_20.Size = UDim2.new(0, 250, 0, 33)
+fly_20.Font = Enum.Font.GothamBold
+fly_20.Text = "View - Unview"
+fly_20.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_20.TextSize = 27.000
+
+fly_21.Name = "fly"
+fly_21.Parent = Items
+fly_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_21.BackgroundTransparency = 999.000
+fly_21.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_21.Size = UDim2.new(0, 250, 0, 33)
+fly_21.Font = Enum.Font.GothamBold
+fly_21.Text = "Noslow"
+fly_21.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_21.TextSize = 27.000
+
+fly_22.Name = "fly"
+fly_22.Parent = Items
+fly_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_22.BackgroundTransparency = 999.000
+fly_22.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_22.Size = UDim2.new(0, 250, 0, 33)
+fly_22.Font = Enum.Font.GothamBold
+fly_22.Text = "Antiafk"
+fly_22.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_22.TextSize = 27.000
+
+fly_23.Name = "fly"
+fly_23.Parent = Items
+fly_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_23.BackgroundTransparency = 999.000
+fly_23.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_23.Size = UDim2.new(0, 250, 0, 33)
+fly_23.Font = Enum.Font.GothamBold
+fly_23.Text = "Superhuman"
+fly_23.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_23.TextSize = 27.000
+
+fly_24.Name = "fly"
+fly_24.Parent = Items
+fly_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_24.BackgroundTransparency = 999.000
+fly_24.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_24.Size = UDim2.new(0, 250, 0, 33)
+fly_24.Font = Enum.Font.GothamBold
+fly_24.Text = "Infjump"
+fly_24.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_24.TextSize = 27.000
+
+fly_25.Name = "fly"
+fly_25.Parent = Items
+fly_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_25.BackgroundTransparency = 999.000
+fly_25.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_25.Size = UDim2.new(0, 250, 0, 33)
+fly_25.Font = Enum.Font.GothamBold
+fly_25.Text = "Esp"
+fly_25.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_25.TextSize = 27.000
+
+fly_26.Name = "fly"
+fly_26.Parent = Items
+fly_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_26.BackgroundTransparency = 999.000
+fly_26.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_26.Size = UDim2.new(0, 250, 0, 33)
+fly_26.Font = Enum.Font.GothamBold
+fly_26.Text = "Esp2"
+fly_26.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_26.TextSize = 27.000
+
+fly_27.Name = "fly"
+fly_27.Parent = Items
+fly_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_27.BackgroundTransparency = 999.000
+fly_27.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_27.Size = UDim2.new(0, 250, 0, 33)
+fly_27.Font = Enum.Font.GothamBold
+fly_27.Text = "Korblox"
+fly_27.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_27.TextSize = 27.000
+
+fly_28.Name = "fly"
+fly_28.Parent = Items
+fly_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_28.BackgroundTransparency = 999.000
+fly_28.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_28.Size = UDim2.new(0, 250, 0, 33)
+fly_28.Font = Enum.Font.GothamBold
+fly_28.Text = "Unjail"
+fly_28.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_28.TextSize = 27.000
+
+fly_29.Name = "fly"
+fly_29.Parent = Items
+fly_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_29.BackgroundTransparency = 999.000
+fly_29.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_29.Size = UDim2.new(0, 250, 0, 33)
+fly_29.Font = Enum.Font.GothamBold
+fly_29.Text = "Db"
+fly_29.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_29.TextSize = 27.000
+
+fly_30.Name = "fly"
+fly_30.Parent = Items
+fly_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_30.BackgroundTransparency = 999.000
+fly_30.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_30.Size = UDim2.new(0, 250, 0, 33)
+fly_30.Font = Enum.Font.GothamBold
+fly_30.Text = "Autofarm"
+fly_30.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_30.TextSize = 27.000
+
+fly_31.Name = "fly"
+fly_31.Parent = Items
+fly_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_31.BackgroundTransparency = 999.000
+fly_31.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_31.Size = UDim2.new(0, 250, 0, 33)
+fly_31.Font = Enum.Font.GothamBold
+fly_31.Text = "Animation - Animate"
+fly_31.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_31.TextSize = 23.000
+
+fly_32.Name = "fly"
+fly_32.Parent = Items
+fly_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_32.BackgroundTransparency = 999.000
+fly_32.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_32.Size = UDim2.new(0, 250, 0, 33)
+fly_32.Font = Enum.Font.GothamBold
+fly_32.Text = "Moonwalk"
+fly_32.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_32.TextSize = 27.000
+
+fly_33.Name = "fly"
+fly_33.Parent = Items
+fly_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly_33.BackgroundTransparency = 999.000
+fly_33.Position = UDim2.new(0, 0, 1.35033531e-07, 0)
+fly_33.Size = UDim2.new(0, 250, 0, 33)
+fly_33.Font = Enum.Font.GothamBold
+fly_33.Text = "Headless"
+fly_33.TextColor3 = Color3.fromRGB(10, 10, 10)
+fly_33.TextSize = 27.000
+
+SearchBar.Name = "SearchBar"
+SearchBar.Parent = Frame
+SearchBar.AnchorPoint = Vector2.new(0.5, 0)
+SearchBar.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
+SearchBar.BorderSizePixel = 2
+SearchBar.Position = UDim2.new(0.526729643, 0, 0.360637039, 0)
+SearchBar.Size = UDim2.new(0, 249, 0, 35)
+SearchBar.ZIndex = 2
+SearchBar.Font = Enum.Font.SourceSans
+SearchBar.PlaceholderColor3 = Color3.fromRGB(173, 173, 173)
+SearchBar.PlaceholderText = "Search Command"
+SearchBar.Text = ""
+SearchBar.TextColor3 = Color3.fromRGB(173, 173, 173)
+SearchBar.TextScaled = true
+SearchBar.TextSize = 14.000
+SearchBar.TextWrapped = true
+
+Close_Button.Name = "Close_Button"
+Close_Button.Parent = Frame
+Close_Button.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Close_Button.Position = UDim2.new(0.0193050224, 0, 0.60182029, 0)
+Close_Button.Size = UDim2.new(0, 30, 0, 31)
+Close_Button.Font = Enum.Font.GothamBold
+Close_Button.Text = "X"
+Close_Button.TextColor3 = Color3.fromRGB(171, 171, 171)
+Close_Button.TextScaled = true
+Close_Button.TextSize = 14.000
+Close_Button.TextWrapped = true
+
+UICorner_2.Parent = Close_Button
+
+-- Scripts:
+
+local function NSTDC_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local searchBar = script.Parent.SearchBar
+	local items = script.Parent.Items
+	
+	function UpdateResults()
+		local search = string.lower(searchBar.Text)
+		for i, v in	 pairs(items:GetChildren()) do
+			if v:IsA("GuiButton") then
+				if search ~= "" then
+					local item = string.lower(v.Text)
+					if string.find(item, search) then
+						v.Visible = true
+					else
+						v.Visible = false
+					end
+				else
+					v.Visible = true
+				end
+			end
+		end
+	end
+	
+	searchBar.Changed:Connect(UpdateResults)
+end
+coroutine.wrap(NSTDC_fake_script)()
+local function AGHVU_fake_script() -- Close_Button.Script 
+	local script = Instance.new('Script', Close_Button)
+
+	local function OnClicked()
+	   script.Parent.Parent:Remove()
+	end
+	
+	script.Parent.MouseButton1Click:connect(OnClicked)
+end
+coroutine.wrap(AGHVU_fake_script)()
